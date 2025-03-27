@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUGO GAZ Express | Livraison rapide et sécurisée</title>
+    <meta name="description" content="HUGO GAZ Express - Votre fournisseur de gaz professionnel. Livraison rapide et sécurisée de bouteilles de gaz pour particuliers et professionnels.">
+    <meta name="keywords" content="gaz, livraison gaz, bouteille gaz, propane, butane, distribution gaz">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzVENUNERSIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4em0tMi45My01LjQ1bDUuNzQtNS43NGMuMTktLjE5LjQ0LS4yOS43LS4yOXMuNTEuMS43MS4yOS4yOS40NC4yOS43LS4xLjUxLS4yOS43bC01Ljc0IDUuNzRjLS4yLjItLjQ1LjI5LS43MS4yOXMtLjUxLS4xLS43LS4yOWMtLjM5LS4zOS0uMzktMS4wMiAwLTEuNDF6Ii8+PC9zdmc+">
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzVENUNERSIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4em0tMi45My01LjQ1bDUuNzQtNS43NGMuMTktLjE5LjQ0LS4yOS43LS4yOXMuNTEuMS43MS4yOS4yOS40NC4yOS43LS4xLjUxLS4yOS43bC01Ljc0IDUuNzRjLS4yLjItLjQ1LjI5LS43MS4yOXMtLjUxLS4xLS43LS4yOWMtLjM5LS4zOS0uMzktMS4wMiAwLTEuNDF6Ii8+PC9zdmc+">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="HUGO GAZ Express | Livraison rapide et sécurisée">
+    <meta property="og:description" content="Votre fournisseur de gaz professionnel. Livraison rapide et sécurisée de bouteilles de gaz pour particuliers et professionnels.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hugogaz-express.fr">
+    <meta property="og:image" content="https://hugogaz-express.fr/images/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HUGO GAZ Express | Livraison rapide et sécurisée">
+    <meta name="twitter:description" content="Votre fournisseur de gaz professionnel. Livraison rapide et sécurisée.">
+    <meta name="twitter:image" content="https://hugogaz-express.fr/images/twitter-card.jpg">
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Preload important fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        
+        
+        
+        /* Base styles */
+        :root {
+            --primary-color: #5D5CDE;
+            --secondary-color: #ef4444;
+            
+            /* Light mode variables */
+            --bg-color-light: #ffffff;
+            --text-color-light: #1f2937;
+            --muted-text-light: #6b7280;
+            --border-color-light: #e5e7eb;
+            --card-bg-light: #ffffff;
+            
+            /* Dark mode variables */
+            --bg-color-dark: #111827;
+            --text-color-dark: #f3f4f6;
+            --muted-text-dark: #9ca3af;
+            --border-color-dark: #374151;
+            --card-bg-dark: #1f2937;
+        }
+        
+        body {
+            font-family: 'Nunito', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .dark {
+            --bg-color: var(--bg-color-dark);
+            --text-color: var(--text-color-dark);
+            --muted-text: var(--muted-text-dark);
+            --border-color: var(--border-color-dark);
+            --card-bg: var(--card-bg-dark);
+        }
+        
+        html:not(.dark) {
+            --bg-color: var(--bg-color-light);
+            --text-color: var(--text-color-light);
+            --muted-text: var(--muted-text-light);
+            --border-color: var(--border-color-light);
+            --card-bg: var(--card-bg-light);
+        }
+        
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: var(--border-color);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 5px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4645c4;
+        }
+        
+        /* Custom styles */
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .dark .glass-effect {
+            background: rgba(31, 41, 55, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        /* Styles pour les cartes de services */
+        .service-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* Styles pour les boutons */
+        .btn-primary {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.1);
+            transition: width 0.3s ease;
+            z-index: -1;
+        }
+        
+        .btn-primary:hover::before {
+            width: 100%;
+        }
+        
+        /* Animation de chargement pour les images */
+        .lazy-image-loading {
+            background: linear-gradient(90deg, #f0f0f0, #e0e0e0, #f0f0f0);
+            background-size: 200% 100%;
+            animation: lazyImageLoading 1.5s infinite ease-in-out;
+        }
+        
+        @keyframes lazyImageLoading {
+            0% {
+                background-position: -100% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+        
+        /* Effet d'animation pour les icônes */
+        .icon-pulse {
+            animation: iconPulse 2s infinite;
+        }
+        
+        @keyframes iconPulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        /* Style pour les témoignages */
+        .testimonial-card {
+            position: relative;
+        }
+        
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 0;
+            left: 20px;
+            font-size: 4rem;
+            font-weight: bold;
+            line-height: 1;
+            color: rgba(93, 92, 222, 0.1);
+            z-index: 0;
+        }
+        
+        /* Style pour la FAQ */
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            opacity: 1;
+            padding: 1rem 0;
+        }
+        
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        /* Style pour la carte */
+        .map-container {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 0.5rem;
+        }
+        
+        /* Tooltip */
+        [data-tooltip] {
+            position: relative;
+        }
+        
+        [data-tooltip]:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0.5rem;
+            background-color: #1f2937;
+            color: white;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        
+        /* Support for reduced motion preference */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <!-- Skip to main content link - Accessibility feature -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-primary-500 focus:text-white focus:p-4">
+        Aller au contenu principal
+    </a>
+
+    <!-- Announcement bar -->
+    <div class="bg-primary-500 text-white py-2 px-4 text-center relative overflow-hidden">
+        <div class="container mx-auto flex items-center justify-center">
+            <p class="text-sm font-medium animate-slide-in-right">
+                <span class="hidden sm:inline">🎉 Offre spéciale :</span> Livraison gratuite pour toute commande en ligne ! Utilisez le code WELCOME10
+            </p>
+        </div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-40 bg-white dark:bg-gray-800 shadow-md">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <div class="h-10 w-10 rounded-full bg-primary-500 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+                            <path d="M14.5 6.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM18.5 15.75a1.55 1.55 0 0 0-1.5-1.25h-5a1.55 1.55 0 0 0-1.5 1.25 8.33 8.33 0 0 0-.5 2.75v.5h9v-.5c0-1-.2-1.9-.5-2.75zM8.5 6.5a.5.5 0 0 1 .5-.5h.7c.76 0 1.43.4 1.81 1a5.53 5.53 0 0 0-1.51 2h-1a.5.5 0 0 1-.5-.5v-2zm.5 8a.5.5 0 0 1 .5-.5h1.21c.24.74.64 1.42 1.18 2H9.5a.5.5 0 0 1-.5-.5v-1z"/>
+                            <path d="M22 8.5c0 3.31-1.9 6.19-4.65 7.67a8.3 8.3 0 0 1 .65 3.33v.5c0 .83-.67 1.5-1.5 1.5h-9c-.83 0-1.5-.67-1.5-1.5v-.5a8.3 8.3 0 0 1 .65-3.33A9 9 0 0 1 3 8.5C3 3.81 6.81 0 11.5 0S20 3.81 20 8.5h2zM11.5 16a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15z"/>
+                        </svg>
+                    </div>
+                    <span class="text-xl font-extrabold text-gray-900 dark:text-white">
+                        HUGO <span class="text-primary-500">GAZ</span> <span class="text-xs font-semibold bg-secondary-500 text-white px-2 py-1 rounded">EXPRESS</span>
+                    </span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="#accueil" class="text-sm font-medium hover:text-primary-500 dark:hover:text-primary-400 transition-colors py-2">Accueil</a>
+                    <a href="#services" class="text-sm font-medium hover:text-primary-500 dark:hover:text-primary-400 transition-colors py-2">Nos Services</a>
+                    <a href="#produits" class="text-sm font-medium hover:text-primary-500 dark:hover:text-primary-400 transition-colors py-2">Produits</a>
+                    <a href="#temoignages" class="text-sm font-medium hover:text-primary-500 dark:hover:text-primary-400 transition-colors py-2">Témoignages</a>
+                    <a href="#faq" class="text-sm font-medium hover:text-primary-500 dark:hover:text-primary-400 transition-colors py-2">FAQ</a>
+                    <a href="#contact" class="text-sm font-medium hover:text-primary-500 dark:hover:text-primary-400 transition-colors py-2">Contact</a>
+                </nav>
+                
+                <div class="flex items-center space-x-4">
+                    <!-- Dark mode toggle -->
+                    <button id="theme-toggle" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </button>
+                    
+                    <!-- Phone number with animation -->
+                    <a href="tel:0123456789" class="hidden sm:flex items-center space-x-2 pr-4 border-r border-gray-200 dark:border-gray-700">
+                        <div class="animate-pulse w-8 h-8 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center text-green-600 dark:text-green-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <span class="text-sm font-semibold">680479880</span>
+                    </a>
+                    
+                    <!-- CTA Button -->
+                    <a href="#commander" class="hidden sm:block bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-md transition-all shadow-md hover:shadow-lg">
+                        Commander
+                    </a>
+                    
+                    <!-- Mobile menu button -->
+                    <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-600 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="md:hidden hidden pb-4 animate-slide-down">
+                <div class="flex flex-col space-y-2 px-2 pt-2 pb-3">
+                    <a href="#accueil" class="text-base font-medium hover:text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors px-3 py-2 rounded-md">Accueil</a>
+                    <a href="#services" class="text-base font-medium hover:text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors px-3 py-2 rounded-md">Nos Services</a>
+                    <a href="#produits" class="text-base font-medium hover:text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors px-3 py-2 rounded-md">Produits</a>
+                    <a href="#temoignages" class="text-base font-medium hover:text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors px-3 py-2 rounded-md">Témoignages</a>
+                    <a href="#faq" class="text-base font-medium hover:text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors px-3 py-2 rounded-md">FAQ</a>
+                    <a href="#contact" class="text-base font-medium hover:text-primary-500 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors px-3 py-2 rounded-md">Contact</a>
+                    <div class="pt-2 mt-2 border-t border-gray-200 dark:border-gray-700">
+                        <a href="#commander" class="block w-full bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-md text-center transition-all shadow-md hover:shadow-lg">
+                            Commander maintenant
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section with parallax effect -->
+        <section id="accueil" class="relative bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900 overflow-hidden">
+            <!-- Background pattern -->
+            <div class="absolute inset-0 bg-hero-pattern bg-repeat-x bg-bottom opacity-50"></div>
+            
+            <!-- Wave SVG -->
+            <div class="absolute bottom-0 left-0 right-0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="text-white dark:text-gray-900 w-full h-auto">
+                    <path fill="currentColor" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,224C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                </svg>
+            </div>
+            
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
+                <div class="flex flex-col lg:flex-row items-center">
+                    <div class="lg:w-1/2 mb-12 lg:mb-0">
+                        <span class="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900 text-primary-600 dark:text-primary-300 rounded-full text-sm font-semibold mb-4 animate-fade-in">Livraison rapide & sécurisée</span>
+                        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight animate-slide-up" style="animation-delay: 0.2s">
+                            Votre fournisseur de gaz <span class="text-primary-500">fiable et rapide</span>
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 animate-slide-up" style="animation-delay: 0.4s">
+                            HUGO GAZ Express livre vos bouteilles de gaz en moins de 2h, directement à votre domicile ou votre entreprise. Service 7j/7 avec un système de commande simplifié.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 animate-slide-up" style="animation-delay: 0.6s">
+                            <a href="#commander" class="btn-primary bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all flex items-center justify-center">
+                                <span>Commander maintenant</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <a href="#contact" class="text-primary-500 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 font-semibold py-3 px-6 rounded-lg shadow-md border border-primary-500 transition-all flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" />
+                                </svg>
+                                <span>Nous contacter</span>
+                            </a>
+                        </div>
+                        
+                        <!-- Trust Badges -->
+                        <div class="flex flex-wrap mt-10 gap-6 animate-slide-up" style="animation-delay: 0.8s">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600 dark:text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <span class="text-sm font-medium">Livraison en 2h</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                    </svg>
+                                </div>
+                                <span class="text-sm font-medium">100% Sécurisé</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mr-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                    </svg>
+                                </div>
+                                <span class="text-sm font-medium">Suivi en ligne</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hero Image -->
+                    <div class="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end animate-fade-in">
+                        <div class="relative">
+                            <!-- Main illustration -->
+                            <div class="w-full max-w-md animate-float">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="w-full h-auto">
+                                    <g>
+                                        <!-- Gas Delivery Illustration - Simple placeholder -->
+                                        <circle cx="100" cy="100" r="95" fill="#e0e7ff" stroke="#5D5CDE" stroke-width="3"/>
+                                        <rect x="40" y="90" width="50" height="80" rx="5" fill="#5D5CDE"/>
+                                        <rect x="45" y="95" width="40" height="70" rx="3" fill="#818cf8"/>
+                                        <path d="M110 130 L140 90 L170 130 L110 130 Z" fill="#ef4444"/>
+                                        <circle cx="140" cy="80" r="10" fill="#ef4444"/>
+                                        <path d="M60 80 C60 60, 140 60, 140 80" stroke="#5D5CDE" stroke-width="3" fill="none"/>
+                                        <circle cx="140" cy="80" r="5" fill="#ffffff" stroke="#5D5CDE" stroke-width="2"/>
+                                        <circle cx="60" cy="80" r="5" fill="#ffffff" stroke="#5D5CDE" stroke-width="2"/>
+                                        <text x="60" y="135" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">PROPANE</text>
+                                        <text x="140" y="115" font-family="Arial" font-size="10" fill="#ffffff" text-anchor="middle">DANGER</text>
+                                    </g>
+                                </svg>
+                            </div>
+                            
+                            <!-- Decorative circles -->
+                            <div class="absolute top-12 left-0 w-12 h-12 bg-yellow-300 dark:bg-yellow-600 rounded-full opacity-20 animate-float" style="animation-delay: 0.5s"></div>
+                            <div class="absolute bottom-12 right-12 w-8 h-8 bg-primary-300 dark:bg-primary-600 rounded-full opacity-30 animate-float" style="animation-delay: 1s"></div>
+                            <div class="absolute top-1/4 right-0 w-16 h-16 bg-secondary-300 dark:bg-secondary-600 rounded-full opacity-20 animate-float" style="animation-delay: 1.5s"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Featured In / Partners Section -->
+        <section class="py-10 bg-white dark:bg-gray-900">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <p class="text-sm text-center uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-6">Ils nous font confiance</p>
+                
+                <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-70">
+                    <!-- Partner logos as SVG for better dark mode support -->
+                    <div class="grayscale hover:grayscale-0 transition-all">
+                        <svg class="h-8 sm:h-10" viewBox="0 0 100 30" fill="currentColor">
+                            <path d="M15 2C7.268 2 1 8.268 1 16s6.268 14 14 14h70c7.732 0 14-6.268 14-14s-6.268-14-14-14H15zm0 4h70c5.523 0 10 4.477 10 10s-4.477 10-10 10H15C9.477 26 5 21.523 5 16S9.477 6 15 6z" fill="currentColor"/>
+                            <path d="M25 10l-5 12h3l1-2.5h5l1 2.5h3l-5-12h-3zm1.5 3l1.5 4h-3l1.5-4zM43 10v12h3v-4h1l3 4h4l-4-4.5c1-.5 2-1.5 2-3.5 0-2-1.5-4-4-4h-5zm3 3h2c.5 0 1 .5 1 1s-.5 1-1 1h-2v-2zM65 10v12h9v-3h-6v-9h-3zM82 10v12h3v-5h5v-2h-5v-2h6v-3h-9z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="grayscale hover:grayscale-0 transition-all">
+                        <svg class="h-6 sm:h-8" viewBox="0 0 100 30" fill="currentColor">
+                            <path d="M20 15c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15-8.284 0-15 6.716-15 15zm15-9c-4.971 0-9 4.029-9 9s4.029 9 9 9 9-4.029 9-9-4.029-9-9-9z" fill="currentColor"/>
+                            <path d="M64 6l-3 18h4l2-12 5 10h2l5-10 2 12h4l-3-18h-4l-5 10-5-10h-4zM93 6c-4.971 0-9 4.029-9 9s4.029 9 9 9 9-4.029 9-9-4.029-9-9-9zm0 4c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="grayscale hover:grayscale-0 transition-all">
+                        <svg class="h-5 sm:h-7" viewBox="0 0 100 30" fill="currentColor">
+                            <path d="M10 8h11v3H10zM10 14h11v3H10zM10 20h11v3H10zM35 8h55v3H35zM35 14h45v3H35zM35 20h50v3H35z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="grayscale hover:grayscale-0 transition-all">
+                        <svg class="h-7 sm:h-9" viewBox="0 0 100 30" fill="currentColor">
+                            <path d="M30 5l-5 20h6l1-4h5l1 4h6L39 5h-9zm4.5 5l1.5 7h-3l1.5-7zM55 5v20h6V15h6c2.761 0 5-2.239 5-5s-2.239-5-5-5H55zm6 4h4c.552 0 1 .448 1 1s-.448 1-1 1h-4V9zM75 5v20h15v-4h-9v-4h7v-4h-7V9h9V5H75z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="grayscale hover:grayscale-0 transition-all">
+                        <svg class="h-8 sm:h-10" viewBox="0 0 100 30" fill="currentColor">
+                            <path d="M14 5c-4.971 0-9 4.029-9 9v2c0 4.971 4.029 9 9 9h72c4.971 0 9-4.029 9-9v-2c0-4.971-4.029-9-9-9H14zm0 4h72c2.761 0 5 2.239 5 5v2c0 2.761-2.239 5-5 5H14c-2.761 0-5-2.239-5-5v-2c0-2.761 2.239-5 5-5z" fill="currentColor"/>
+                            <circle cx="18" cy="16" r="4" fill="currentColor"/>
+                            <circle cx="32" cy="16" r="4" fill="currentColor"/>
+                            <path d="M48 12l-3 8h3l3-8zM60 12v8h-3v2h8v-2h-3v-8zM72 12v10h2v-4h4v-2h-4v-2h6v-2z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Benefits/Features -->
+        <section class="py-16 md:py-20 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Pourquoi nous choisir</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Solutions de gaz simples et pratiques</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">Notre mission est de vous faciliter l'approvisionnement en gaz avec un service de qualité et une livraison rapide.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-700 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-6 transition-all group-hover:bg-primary-500 group-hover:text-white text-primary-500 dark:text-primary-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Livraison Express</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Livraison de vos bouteilles de gaz en moins de 2 heures dans notre zone de service.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Service 7j/7</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Suivi en temps réel</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Planification possible</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-700 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mb-6 transition-all group-hover:bg-primary-500 group-hover:text-white text-primary-500 dark:text-primary-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Sécurité garantie</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Nos livreurs sont qualifiés pour manipuler les bouteilles de gaz en toute sécurité.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Personnel formé</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Véhicules équipés</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Contrôles qualité</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-700 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-6 transition-all group-hover:bg-primary-500 group-hover:text-white text-primary-500 dark:text-primary-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Paiement facile</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Plusieurs options de paiement disponibles pour faciliter vos commandes.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Carte bancaire</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Paiement mobile</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">À la livraison</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Feature 4 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-700 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-yellow-100 dark:bg-yellow-900 rounded-lg flex items-center justify-center mb-6 transition-all group-hover:bg-primary-500 group-hover:text-white text-primary-500 dark:text-primary-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Qualité certifiée</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Nos bouteilles de gaz répondent aux normes de qualité les plus strictes.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Certifications ISO</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Contrôle régulier</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Garantie fournisseur</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Feature 5 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-700 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center mb-6 transition-all group-hover:bg-primary-500 group-hover:text-white text-primary-500 dark:text-primary-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Application Mobile</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Commandez via notre application mobile intuitive et suivez votre livraison en temps réel.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">iOS & Android</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Notifications</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Commande rapide</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Feature 6 -->
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-700 transition-all hover:shadow-xl group">
+                        <div class="w-14 h-14 bg-pink-100 dark:bg-pink-900 rounded-lg flex items-center justify-center mb-6 transition-all group-hover:bg-primary-500 group-hover:text-white text-primary-500 dark:text-primary-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Support 24/7</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Notre équipe de support est disponible à tout moment pour répondre à vos questions.</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Chat en direct</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Hotline téléphonique</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span class="text-sm">Email & tickets</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="py-16 md:py-20 bg-white dark:bg-gray-900">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Nos services</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Solutions adaptées à vos besoins</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">Découvrez nos différentes offres de services pour particuliers et professionnels.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="service-card bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-8 relative overflow-hidden">
+                        <!-- Background decoration -->
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-blue-100 dark:bg-blue-900 rounded-full opacity-30 transform translate-x-16 -translate-y-16"></div>
+                        
+                        <div class="relative">
+                            <div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                </svg>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold mb-3">Particuliers</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-6">Service de livraison de bouteilles de gaz à domicile pour répondre à vos besoins personnels.</p>
+                            
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Bouteilles de propane et butane</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Installation et conseils inclus</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Programme de fidélité avantageux</span>
+                                </li>
+                            </ul>
+                            
+                            <a href="#commander" class="inline-block font-medium text-primary-500 hover:text-primary-600 transition-colors">
+                                <span class="flex items-center">
+                                    En savoir plus
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-8 relative overflow-hidden">
+                        <!-- Background decoration -->
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-green-100 dark:bg-green-900 rounded-full opacity-30 transform translate-x-16 -translate-y-16"></div>
+                        
+                        <div class="relative">
+                            <div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold mb-3">Professionnels</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-6">Solutions sur mesure pour les entreprises avec des besoins réguliers ou ponctuels.</p>
+                            
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Contrats d'approvisionnement personnalisés</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Facturation simplifiée et délais de paiement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Service prioritaire en cas d'urgence</span>
+                                </li>
+                            </ul>
+                            
+                            <a href="#contact" class="inline-block font-medium text-primary-500 hover:text-primary-600 transition-colors">
+                                <span class="flex items-center">
+                                    Demander un devis
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="service-card bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-8 relative overflow-hidden">
+                        <!-- Background decoration -->
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-purple-100 dark:bg-purple-900 rounded-full opacity-30 transform translate-x-16 -translate-y-16"></div>
+                        
+                        <div class="relative">
+                            <div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </div>
+                            
+                            <h3 class="text-2xl font-bold mb-3">Services spéciaux</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-6">Services complémentaires pour répondre aux situations particulières.</p>
+                            
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Livraison d'urgence en 1h</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Support technique et maintenance</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 mr-3 mt-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span>Formation à la sécurité gaz</span>
+                                </li>
+                            </ul>
+                            
+                            <a href="#contact" class="inline-block font-medium text-primary-500 hover:text-primary-600 transition-colors">
+                                <span class="flex items-center">
+                                    En savoir plus
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Products Section with interactive slider -->
+        <section id="produits" class="py-16 md:py-20 bg-gray-50 dark:bg-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Nos produits</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Une gamme complète pour tous vos besoins</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">Découvrez notre sélection de bouteilles de gaz adaptées à tous les usages.</p>
+                </div>
+                
+                <!-- Product filters -->
+                <div class="flex flex-wrap items-center justify-center gap-3 mb-10">
+                    <button class="product-filter active bg-white dark:bg-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all" data-filter="all">
+                        Tous les produits
+                    </button>
+                    <button class="product-filter bg-white dark:bg-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all" data-filter="propane">
+                        Propane
+                    </button>
+                    <button class="product-filter bg-white dark:bg-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all" data-filter="butane">
+                        Butane
+                    </button>
+                    <button class="product-filter bg-white dark:bg-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all" data-filter="accessoires">
+                        Accessoires
+                    </button>
+                </div>
+                
+                <!-- Products Grid -->
+                <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <!-- Product 1 -->
+                    <div class="product-card group" data-category="propane">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="70" y="40" width="60" height="20" rx="5" fill="#5D5CDE"/>
+                                    <rect x="65" y="60" width="70" height="180" rx="10" fill="#5D5CDE"/>
+                                    <rect x="70" y="65" width="60" height="170" rx="7" fill="#8584EF"/>
+                                    <text x="100" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">PROPANE</text>
+                                    <text x="100" y="170" font-family="Arial" font-size="12" fill="white" text-anchor="middle">13 KG</text>
+                                </svg>
+                                
+                                <!-- Product label -->
+                                <div class="absolute top-4 right-4 bg-primary-500 text-white text-xs font-bold px-2 py-1 rounded">
+                                    Populaire
+                                </div>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Bouteille Propane 13kg</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.8</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Idéale pour le chauffage, la cuisine et l'eau chaude. Compatible avec la plupart des appareils.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7000 FCFA</span>
+                                        <span class="text-sm text-gray-500 dark:text-gray-400 line-through ml-2">7500 FCFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card group" data-category="butane">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="70" y="40" width="60" height="20" rx="5" fill="#EF4444"/>
+                                    <rect x="65" y="60" width="70" height="180" rx="10" fill="#EF4444"/>
+                                    <rect x="70" y="65" width="60" height="170" rx="7" fill="#F87171"/>
+                                    <text x="100" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">BUTANE</text>
+                                    <text x="100" y="170" font-family="Arial" font-size="12" fill="white" text-anchor="middle">13 KG</text>
+                                </svg>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Bouteille Butane 13kg</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.6</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Parfaite pour une utilisation intérieure, idéale pour les appareils domestiques.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7500 FCFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="product-card group" data-category="propane">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="75" y="40" width="50" height="16" rx="5" fill="#5D5CDE"/>
+                                    <rect x="70" y="56" width="60" height="140" rx="10" fill="#5D5CDE"/>
+                                    <rect x="74" y="60" width="52" height="132" rx="7" fill="#8584EF"/>
+                                    <text x="100" y="120" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">PROPANE</text>
+                                    <text x="100" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">6 KG</text>
+                                </svg>
+                                
+                                <!-- Product label -->
+                                <div class="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded">
+                                    Économique
+                                </div>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Bouteille Propane 6kg</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.7</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Format compact et léger, parfait pour une utilisation mobile et les petites installations.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7500 FCFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="product-card group" data-category="butane">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="75" y="40" width="50" height="16" rx="5" fill="#EF4444"/>
+                                    <rect x="70" y="56" width="60" height="140" rx="10" fill="#EF4444"/>
+                                    <rect x="74" y="60" width="52" height="132" rx="7" fill="#F87171"/>
+                                    <text x="100" y="120" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">BUTANE</text>
+                                    <text x="100" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">6 KG</text>
+                                </svg>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Bouteille Butane 6kg</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.5</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Format compact, idéal pour les petits appareils domestiques et la cuisine portable.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7500 FCFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 5 -->
+                    <div class="product-card group" data-category="accessoires">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="100" cy="120" r="50" fill="#e5e7eb" stroke="#5D5CDE" stroke-width="3"/>
+                                    <circle cx="100" cy="120" r="40" fill="#f3f4f6" stroke="#5D5CDE" stroke-width="2"/>
+                                    <rect x="95" y="80" width="10" height="20" fill="#5D5CDE"/>
+                                    <rect x="70" y="115" width="60" height="10" fill="#5D5CDE"/>
+                                    <text x="100" y="170" font-family="Arial" font-size="14" fill="#5D5CDE" text-anchor="middle">RÉGULATEUR</text>
+                                </svg>
+                                
+                                <!-- Product label -->
+                                <div class="absolute top-4 right-4 bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded">
+                                    Nécessaire
+                                </div>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Régulateur de pression</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.9</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Compatible avec toutes les bouteilles standard, assure une pression constante et sécurisée.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">10000 FCFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 6 -->
+                    <div class="product-card group" data-category="accessoires">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M70 120 C70 100, 130 100, 130 120 L130 150 C130 170, 70 170, 70 150 Z" fill="#e5e7eb" stroke="#5D5CDE" stroke-width="3"/>
+                                    <rect x="90" y="95" width="20" height="10" fill="#5D5CDE"/>
+                                    <line x1="80" y1="135" x2="120" y2="135" stroke="#5D5CDE" stroke-width="2"/>
+                                    <line x1="85" y1="145" x2="115" y2="145" stroke="#5D5CDE" stroke-width="2"/>
+                                    <text x="100" y="190" font-family="Arial" font-size="14" fill="#5D5CDE" text-anchor="middle">TUYAU FLEXIBLE</text>
+                                </svg>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Tuyau flexible 1.5m</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.7</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Tuyau flexible renforcé pour une connexion sécurisée entre la bouteille et votre appareil.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7500 FCAF</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 7 -->
+                    <div class="product-card group" data-category="propane">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="60" y="40" width="80" height="25" rx="5" fill="#5D5CDE"/>
+                                    <rect x="50" y="65" width="100" height="200" rx="10" fill="#5D5CDE"/>
+                                    <rect x="55" y="70" width="90" height="190" rx="7" fill="#8584EF"/>
+                                    <text x="100" y="150" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">PROPANE</text>
+                                    <text x="100" y="180" font-family="Arial" font-size="18" fill="white" text-anchor="middle">35 KG</text>
+                                </svg>
+                                
+                                <!-- Product label -->
+                                <div class="absolute top-4 right-4 bg-yellow-500 text-white text-xs font-bold px-2 py-1 rounded">
+                                    Professionnel
+                                </div>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Bouteille Propane 35kg</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">4.9</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Grande capacité pour les usages professionnels et les besoins importants en chauffage.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7000 FCAFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 8 -->
+                    <div class="product-card group" data-category="accessoires">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 transition-all hover:shadow-xl">
+                            <div class="relative h-56 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                                <!-- Product image -->
+                                <svg class="w-full h-full object-contain p-6" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="70" y="120" width="60" height="40" rx="5" fill="#e5e7eb" stroke="#5D5CDE" stroke-width="2"/>
+                                    <rect x="80" y="100" width="40" height="20" fill="#5D5CDE"/>
+                                    <circle cx="100" cy="150" r="5" fill="#5D5CDE"/>
+                                    <circle cx="85" cy="135" r="3" fill="#5D5CDE"/>
+                                    <circle cx="115" cy="135" r="3" fill="#5D5CDE"/>
+                                    <text x="100" y="190" font-family="Arial" font-size="14" fill="#5D5CDE" text-anchor="middle">DÉTECTEUR DE GAZ</text>
+                                </svg>
+                                
+                                <!-- Product label -->
+                                <div class="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                                    Sécurité
+                                </div>
+                                
+                                <!-- Quick view button -->
+                                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white text-gray-800 hover:bg-primary-500 hover:text-white font-medium px-4 py-2 rounded-lg transition-colors transform hover:scale-105">
+                                        Aperçu rapide
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-lg font-semibold">Détecteur de fuite de gaz</h3>
+                                    <div class="flex items-center">
+                                        <span class="text-yellow-500">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </span>
+                                        <span class="text-sm font-medium ml-1">5.0</span>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    Système d'alerte avancé qui détecte les fuites de gaz pour une sécurité maximale.
+                                </p>
+                                
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <span class="text-lg font-bold text-gray-900 dark:text-white">7000 FCFA</span>
+                                    </div>
+                                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
+                                        Ajouter
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Load more button -->
+                <div class="text-center mt-10">
+                    <button class="bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-medium px-6 py-3 rounded-lg border border-gray-200 dark:border-gray-600 transition-colors">
+                        Voir plus de produits
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 inline-block" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Order Form Section -->
+        <section id="commander" class="py-16 md:py-20 bg-white dark:bg-gray-900">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto">
+                    <div class="text-center mb-10">
+                        <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Commander maintenant</span>
+                        <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Faites-vous livrer en quelques clics</h2>
+                        <p class="text-lg text-gray-600 dark:text-gray-300">Commandez votre gaz en ligne et recevez-le en moins de 2 heures.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 md:p-10 shadow-lg-light dark:shadow-none">
+                        <form id="order-form" class="space-y-6">
+                            <!-- Personal Information -->
+                            <div>
+                                <h3 class="text-xl font-semibold mb-6 pb-2 border-b border-gray-200 dark:border-gray-700">Vos informations</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="firstName" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Prénom</label>
+                                        <input type="text" id="firstName" name="firstName" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                    <div>
+                                        <label for="lastName" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Nom</label>
+                                        <input type="text" id="lastName" name="lastName" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                    <div>
+                                        <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+                                        <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                    <div>
+                                        <label for="phone" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Téléphone</label>
+                                        <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Delivery Address -->
+                            <div>
+                                <h3 class="text-xl font-semibold mb-6 pb-2 border-b border-gray-200 dark:border-gray-700">Adresse de livraison</h3>
+                                <div class="grid grid-cols-1 gap-6">
+                                    <div>
+                                        <label for="address" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Adresse</label>
+                                        <input type="text" id="address" name="address" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                        <div>
+                                            <label for="postalCode" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Code postal</label>
+                                            <input type="text" id="postalCode" name="postalCode" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                        </div>
+                                        <div class="md:col-span-2">
+                                            <label for="city" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Ville</label>
+                                            <input type="text" id="city" name="city" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for="instructions" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Instructions de livraison (facultatif)</label>
+                                        <textarea id="instructions" name="instructions" rows="3" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Product Selection -->
+                            <div>
+                                <h3 class="text-xl font-semibold mb-6 pb-2 border-b border-gray-200 dark:border-gray-700">Votre commande</h3>
+                                <div class="space-y-4">
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        <!-- Product 1 -->
+                                        <div class="bg-white dark:bg-gray-700 p-4 rounded-lg border border-gray-200 dark:border-gray-600 flex items-center">
+                                            <input id="product-1" name="product" type="radio" value="propane-13kg" class="h-5 w-5 text-primary-500 focus:ring-primary-500 cursor-pointer">
+                                            <label for="product-1" class="ml-3 flex flex-col cursor-pointer">
+                                                <span class="text-sm font-medium text-gray-900 dark:text-white">Propane 13kg</span>
+                                                <span class="text-sm text-gray-500 dark:text-gray-400">7000 FCFA</span>
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Product 2 -->
+                                        <div class="bg-white dark:bg-gray-700 p-4 rounded-lg border border-gray-200 dark:border-gray-600 flex items-center">
+                                            <input id="product-2" name="product" type="radio" value="butane-13kg" class="h-5 w-5 text-primary-500 focus:ring-primary-500 cursor-pointer">
+                                            <label for="product-2" class="ml-3 flex flex-col cursor-pointer">
+                                                <span class="text-sm font-medium text-gray-900 dark:text-white">Butane 13kg</span>
+                                                <span class="text-sm text-gray-500 dark:text-gray-400">7500 FCFA</span>
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Product 3 -->
+                                        <div class="bg-white dark:bg-gray-700 p-4 rounded-lg border border-gray-200 dark:border-gray-600 flex items-center">
+                                            <input id="product-3" name="product" type="radio" value="propane-6kg" class="h-5 w-5 text-primary-500 focus:ring-primary-500 cursor-pointer">
+                                            <label for="product-3" class="ml-3 flex flex-col cursor-pointer">
+                                                <span class="text-sm font-medium text-gray-900 dark:text-white">Propane 6kg</span>
+                                                <span class="text-sm text-gray-500 dark:text-gray-400">7500 FCFA</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <div>
+                                            <label for="quantity" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Quantité</label>
+                                            <div class="flex items-center">
+                                                <button type="button" id="decrease-quantity" class="px-3 py-2 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200 rounded-l-lg">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                        <path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                    </svg>
+                                                </button>
+                                                <input type="number" id="quantity" name="quantity" min="1" value="1" class="w-16 px-3 py-2 text-center border-y border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white text-base">
+                                                <button type="button" id="increase-quantity" class="px-3 py-2 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200 rounded-r-lg">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                                        <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <label for="delivery-time" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Heure de livraison souhaitée</label>
+                                            <select id="delivery-time" name="delivery-time" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                                <option value="asap">Dès que possible</option>
+                                                <option value="morning">Matin (8h - 12h)</option>
+                                                <option value="afternoon">Après-midi (13h - 17h)</option>
+                                                <option value="evening">Soirée (18h - 20h)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="pt-4">
+                                        <div class="bg-primary-50 dark:bg-gray-600 p-4 rounded-lg border border-primary-100 dark:border-gray-500">
+                                            <h4 class="text-base font-medium mb-3">Récapitulatif de la commande</h4>
+                                            <div class="space-y-2 text-sm">
+                                                <div class="flex justify-between">
+                                                    <span class="text-gray-600 dark:text-gray-300">Produit:</span>
+                                                    <span class="font-medium" id="summary-product">-</span>
+                                                </div>
+                                                <div class="flex justify-between">
+                                                    <span class="text-gray-600 dark:text-gray-300">Quantité:</span>
+                                                    <span class="font-medium" id="summary-quantity">1</span>
+                                                </div>
+                                                <div class="flex justify-between">
+                                                    <span class="text-gray-600 dark:text-gray-300">Livraison:</span>
+                                                    <span class="font-medium text-green-600 dark:text-green-400">Gratuite</span>
+                                                </div>
+                                                <div class="pt-2 mt-2 border-t border-gray-200 dark:border-gray-500 flex justify-between">
+                                                    <span class="font-medium">Total:</span>
+                                                    <span class="font-bold" id="summary-total">-</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Submit Button -->
+                            <div class="pt-4">
+                                <button type="submit" class="w-full bg-primary-500 hover:bg-primary-600 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+                                    Confirmer la commande
+                                </button>
+                            </div>
+                            
+                            <!-- Terms and Privacy -->
+                            <div class="text-sm text-gray-600 dark:text-gray-400 text-center">
+                                En passant commande, vous acceptez nos <a href="#" class="text-primary-500 hover:text-primary-600">Conditions Générales de Vente</a> et notre <a href="#" class="text-primary-500 hover:text-primary-600">Politique de Confidentialité</a>.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="temoignages" class="py-16 md:py-20 bg-gray-50 dark:bg-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Témoignages clients</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Ce que nos clients disent de nous</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">Découvrez les avis de nos clients satisfaits par notre service de livraison de gaz.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600">
+                        <div class="flex items-center mb-6">
+                            <div class="mr-4">
+                                <div class="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center text-primary-500 font-bold">
+                                    MB
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold">Michel B.</h4>
+                                <div class="flex items-center">
+                                    <div class="flex text-yellow-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                    </div>
+                                    <span class="text-xs text-gray-500 dark:text-gray-400 ml-2">il y a 2 jours</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 relative z-10">
+                            "Service impeccable ! J'ai commandé une bouteille de propane à 10h et elle est arrivée avant midi. Le livreur était ponctuel et professionnel. Je recommande vivement HUGO GAZ Express pour leur efficacité."
+                        </p>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600">
+                        <div class="flex items-center mb-6">
+                            <div class="mr-4">
+                                <div class="w-12 h-12 bg-pink-100 dark:bg-pink-900 rounded-full flex items-center justify-center text-primary-500 font-bold">
+                                    SL
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold">Sophie L.</h4>
+                                <div class="flex items-center">
+                                    <div class="flex text-yellow-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                    </div>
+                                    <span class="text-xs text-gray-500 dark:text-gray-400 ml-2">il y a 1 semaine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 relative z-10">
+                            "Je suis cliente depuis plus d'un an et je n'ai jamais été déçue. Le site est facile à utiliser, les prix sont compétitifs et la livraison est toujours rapide. Le service client est également très réactif."
+                        </p>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card bg-white dark:bg-gray-700 p-8 rounded-xl shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600">
+                        <div class="flex items-center mb-6">
+                            <div class="mr-4">
+                                <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center text-primary-500 font-bold">
+                                    TP
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold">Thomas P.</h4>
+                                <div class="flex items-center">
+                                    <div class="flex text-yellow-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-300 dark:text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                    </div>
+                                    <span class="text-xs text-gray-500 dark:text-gray-400 ml-2">il y a 2 semaines</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 relative z-10">
+                            "Pour mon restaurant, j'ai besoin d'un approvisionnement régulier en gaz. HUGO GAZ Express est le partenaire idéal avec leur service professionnel et leurs livraisons ponctuelles. Leur offre pour les entreprises est vraiment adaptée à nos besoins."
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Review stats -->
+                <div class="mt-16 bg-white dark:bg-gray-700 rounded-xl p-8 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                        <div class="md:col-span-1 flex md:flex-col items-center md:items-start md:justify-center">
+                            <div class="text-6xl font-bold text-gray-900 dark:text-white mr-4 md:mr-0 md:mb-2">4.8</div>
+                            <div>
+                                <div class="flex text-yellow-400 mb-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Basé sur 326 avis</p>
+                            </div>
+                        </div>
+                        
+                        <div class="md:col-span-2">
+                            <div class="space-y-3">
+                                <!-- 5 stars -->
+                                <div class="flex items-center">
+                                    <span class="text-sm w-12 text-gray-700 dark:text-gray-300">5 ★</span>
+                                    <div class="flex-1 h-4 mx-2 bg-gray-200 dark:bg-gray-600 rounded-full overflow-hidden">
+                                        <div class="bg-yellow-400 h-full" style="width: 84%"></div>
+                                    </div>
+                                    <span class="text-sm w-12 text-gray-600 dark:text-gray-400">84%</span>
+                                </div>
+                                
+                                <!-- 4 stars -->
+                                <div class="flex items-center">
+                                    <span class="text-sm w-12 text-gray-700 dark:text-gray-300">4 ★</span>
+                                    <div class="flex-1 h-4 mx-2 bg-gray-200 dark:bg-gray-600 rounded-full overflow-hidden">
+                                        <div class="bg-yellow-400 h-full" style="width: 12%"></div>
+                                    </div>
+                                    <span class="text-sm w-12 text-gray-600 dark:text-gray-400">12%</span>
+                                </div>
+                                
+                                <!-- 3 stars -->
+                                <div class="flex items-center">
+                                    <span class="text-sm w-12 text-gray-700 dark:text-gray-300">3 ★</span>
+                                    <div class="flex-1 h-4 mx-2 bg-gray-200 dark:bg-gray-600 rounded-full overflow-hidden">
+                                        <div class="bg-yellow-400 h-full" style="width: 3%"></div>
+                                    </div>
+                                    <span class="text-sm w-12 text-gray-600 dark:text-gray-400">3%</span>
+                                </div>
+                                
+                                <!-- 2 stars -->
+                                <div class="flex items-center">
+                                    <span class="text-sm w-12 text-gray-700 dark:text-gray-300">2 ★</span>
+                                    <div class="flex-1 h-4 mx-2 bg-gray-200 dark:bg-gray-600 rounded-full overflow-hidden">
+                                        <div class="bg-yellow-400 h-full" style="width: 1%"></div>
+                                    </div>
+                                    <span class="text-sm w-12 text-gray-600 dark:text-gray-400">1%</span>
+                                </div>
+                                
+                                <!-- 1 star -->
+                                <div class="flex items-center">
+                                    <span class="text-sm w-12 text-gray-700 dark:text-gray-300">1 ★</span>
+                                    <div class="flex-1 h-4 mx-2 bg-gray-200 dark:bg-gray-600 rounded-full overflow-hidden">
+                                        <div class="bg-yellow-400 h-full" style="width: 0%"></div>
+                                    </div>
+                                    <span class="text-sm w-12 text-gray-600 dark:text-gray-400">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="md:col-span-1 flex flex-col justify-center items-center">
+                            <a href="#" class="bg-white dark:bg-gray-600 hover:bg-gray-50 dark:hover:bg-gray-500 text-primary-500 font-medium py-2 px-4 rounded-lg border border-primary-500 transition-colors w-full text-center mb-3">
+                                Voir tous les avis
+                            </a>
+                            <a href="#" class="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors w-full text-center">
+                                Laisser un avis
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section id="faq" class="py-16 md:py-20 bg-white dark:bg-gray-900">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Questions fréquentes</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Tout ce que vous devez savoir</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">Voici les réponses aux questions les plus fréquemment posées par nos clients.</p>
+                </div>
+                
+                <div class="max-w-3xl mx-auto">
+                    <div class="space-y-4">
+                        <!-- FAQ Item 1 -->
+                        <div class="faq-item bg-gray-50 dark:bg-gray-800 rounded-lg p-5 cursor-pointer active">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Comment fonctionne la livraison ?</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 faq-icon transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="faq-answer mt-2 text-gray-600 dark:text-gray-300">
+                                Après avoir passé votre commande sur notre site ou notre application, un livreur se rend chez vous dans un délai maximum de 1 heures. Vous pouvez suivre en temps réel la progression de la livraison. Notre livreur installera votre bouteille de gaz si vous le souhaitez et reprendra l'ancienne bouteille vide.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 2 -->
+                        <div class="faq-item bg-gray-50 dark:bg-gray-800 rounded-lg p-5 cursor-pointer">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Quels types de gaz proposez-vous ?</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 faq-icon transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="faq-answer mt-2 text-gray-600 dark:text-gray-300">
+                                Nous proposons des bouteilles de propane et de butane de différentes capacités (6kg, 13kg, 35kg) adaptées à tous les usages domestiques et professionnels. Nous offrons également des accessoires comme des régulateurs, des tuyaux flexibles et des détecteurs de gaz.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 3 -->
+                        <div class="faq-item bg-gray-50 dark:bg-gray-800 rounded-lg p-5 cursor-pointer">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Quelles sont les zones de livraison ?</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 faq-icon transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="faq-answer mt-2 text-gray-600 dark:text-gray-300">
+                                Nous livrons actuellement dans la plupart des grandes villes et leurs périphéries. Vous pouvez vérifier si votre adresse est dans notre zone de livraison en entrant votre code postal sur notre site ou notre application. Nous élargissons constamment notre zone de couverture.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 4 -->
+                        <div class="faq-item bg-gray-50 dark:bg-gray-800 rounded-lg p-5 cursor-pointer">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Comment fonctionne le paiement ?</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 faq-icon transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="faq-answer mt-2 text-gray-600 dark:text-gray-300">
+                                Vous pouvez payer en ligne par carte bancaire lors de votre commande, ou directement à la livraison en espèces ou par carte. Pour les clients professionnels, nous proposons également des options de facturation mensuelle avec différents délais de paiement.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 5 -->
+                        <div class="faq-item bg-gray-50 dark:bg-gray-800 rounded-lg p-5 cursor-pointer">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Que faire de ma bouteille vide ?</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 faq-icon transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="faq-answer mt-2 text-gray-600 dark:text-gray-300">
+                                Notre service inclut la reprise de votre bouteille vide lors de la livraison d'une nouvelle bouteille. Notre livreur se chargera de récupérer l'ancienne bouteille et vous remettra un reçu confirmant cette reprise.
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 6 -->
+                        <div class="faq-item bg-gray-50 dark:bg-gray-800 rounded-lg p-5 cursor-pointer">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Comment annuler ou modifier ma commande ?</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500 faq-icon transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="faq-answer mt-2 text-gray-600 dark:text-gray-300">
+                                Vous pouvez annuler ou modifier votre commande jusqu'à 30 minutes après l'avoir passée. Pour cela, connectez-vous à votre compte sur notre site ou notre application, ou contactez notre service client par téléphone au 01 23 45 67 89.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- More questions -->
+                    <div class="mt-8 text-center">
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Vous ne trouvez pas la réponse à votre question ?</p>
+                        <a href="#contact" class="inline-block bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-6 rounded-lg transition-colors">
+                            Contactez-nous
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 md:py-20 bg-gray-50 dark:bg-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <span class="text-sm font-semibold text-primary-500 uppercase tracking-wider">Contact</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Besoin d'aide ? Contactez-nous</h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">Notre équipe est à votre disposition pour répondre à toutes vos questions.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Contact Info -->
+                    <div class="lg:col-span-1">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600 h-full">
+                            <h3 class="text-xl font-semibold mb-6">Informations de contact</h3>
+                            
+                            <!-- Address -->
+                            <div class="flex items-start mb-6">
+                                <div class="w-10 h-10 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">Adresse</h4>
+                                    <p class="text-base">RUE 8.2 TITI GARAGE Face Station bocom  <br>  Yaounde, Cameroun</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Phone -->
+                            <div class="flex items-start mb-6">
+                                <div class="w-10 h-10 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">Téléphone</h4>
+                                    <p class="text-base">680479880</p>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Du lundi au samedi, 8h-20h</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Email -->
+                            <div class="flex items-start mb-6">
+                                <div class="w-10 h-10 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">Email</h4>
+                                    <p class="text-base">contact@hugogaz-express</p>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Réponse sous 24h</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Social Media -->
+                            <div class="pt-6 mt-6 border-t border-gray-200 dark:border-gray-600">
+                                <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400 mb-4">Suivez-nous</h4>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-400 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-500 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 rounded-full bg-pink-100 dark:bg-pink-900 flex items-center justify-center text-pink-600 dark:text-pink-400 hover:bg-pink-200 dark:hover:bg-pink-800 transition-colors">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-700 dark:text-blue-500 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="lg:col-span-2">
+                        <div class="bg-white dark:bg-gray-700 rounded-xl p-6 shadow-lg-light dark:shadow-none border border-gray-100 dark:border-gray-600">
+                            <h3 class="text-xl font-semibold mb-6">Envoyez-nous un message</h3>
+                            
+                            <form class="space-y-6">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="contact-name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Nom</label>
+                                        <input type="text" id="contact-name" name="contact-name" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                    <div>
+                                        <label for="contact-email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+                                        <input type="email" id="contact-email" name="contact-email" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label for="contact-subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Sujet</label>
+                                    <input type="text" id="contact-subject" name="contact-subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base">
+                                </div>
+                                
+                                <div>
+                                    <label for="contact-message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                                    <textarea id="contact-message" name="contact-message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white text-base"></textarea>
+                                </div>
+                                
+                                <div class="flex items-start">
+                                    <div class="flex items-center h-5">
+                                        <input id="privacy" name="privacy" type="checkbox" class="h-4 w-4 text-primary-500 focus:ring-primary-500 border-gray-300 rounded">
+                                    </div>
+                                    <div class="ml-3 text-sm">
+                                        <label for="privacy" class="text-gray-600 dark:text-gray-300">J'accepte que mes données soient traitées conformément à la <a href="#" class="text-primary-500 hover:text-primary-600">politique de confidentialité</a>.</label>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <button type="submit" class="w-full bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+                                        Envoyer le message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map -->
+                <div class="mt-12 max-w-6xl mx-auto">
+                    <div class="map-container">
+                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg overflow-hidden">
+                            <!-- SVG map placeholder -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" viewBox="0 0 800 400">
+                                <rect width="800" height="400" fill="#e5e7eb" />
+                                <path d="M0,100 Q400,150 800,100 L800,400 L0,400 Z" fill="#d1d5db" />
+                                <path d="M0,150 Q400,200 800,150 L800,400 L0,400 Z" fill="#9ca3af" />
+                                <path d="M0,200 Q400,250 800,200 L800,400 L0,400 Z" fill="#6b7280" />
+                                
+                                <!-- Roads -->
+                                <line x1="100" y1="50" x2="100" y2="350" stroke="#fff" stroke-width="8" />
+                                <line x1="300" y1="50" x2="300" y2="350" stroke="#fff" stroke-width="10" />
+                                <line x1="500" y1="50" x2="500" y2="350" stroke="#fff" stroke-width="8" />
+                                <line x1="700" y1="50" x2="700" y2="350" stroke="#fff" stroke-width="6" />
+                                
+                                <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="12" />
+                                <line x1="0" y1="200" x2="800" y2="200" stroke="#fff" stroke-width="8" />
+                                <line x1="0" y1="300" x2="800" y2="300" stroke="#fff" stroke-width="10" />
+                                
+                                <!-- Location marker -->
+                                <circle cx="400" cy="200" r="20" fill="#ef4444" />
+                                <circle cx="400" cy="200" r="10" fill="#fff" />
+                                <text x="420" y="180" font-family="Arial" font-size="12" fill="#000" font-weight="bold">HUGO GAZ Express</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Newsletter Section -->
+        <section class="py-16 md:py-20 bg-primary-500 text-white relative overflow-hidden">
+            <!-- Background decoration -->
+            <div class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10">
+                <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-full">
+                    <path d="M0,0 L100,0 L100,100 L0,100 Z" fill="none" stroke="white" vector-effect="non-scaling-stroke" />
+                    <path d="M0,0 C30,20 70,20 100,0 L100,100 L0,100 Z" fill="white" />
+                </svg>
+            </div>
+            
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Restez informé de nos offres spéciales</h2>
+                    <p class="text-lg text-white text-opacity-90 mb-8">Inscrivez-vous à notre newsletter pour recevoir nos promotions exclusives et nos conseils sur l'utilisation du gaz.</p>
+                    
+                    <form class="flex flex-col sm:flex-row max-w-lg mx-auto">
+                        <input type="email" placeholder="Votre adresse email" class="flex-1 px-4 py-3 rounded-lg sm:rounded-r-none text-gray-900 text-base focus:outline-none focus:ring-2 focus:ring-white">
+                        <button type="submit" class="bg-white text-primary-500 font-bold py-3 px-6 rounded-lg sm:rounded-l-none mt-3 sm:mt-0 transition-colors hover:bg-gray-100">
+                            S'abonner
+                        </button>
+                    </form>
+                    
+                    <p class="text-sm text-white text-opacity-80 mt-4">Nous respectons votre vie privée. Aucun spam, promis !</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 pt-12 pb-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="h-10 w-10 rounded-full bg-primary-500 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-6 h-6">
+                                <path d="M14.5 6.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM18.5 15.75a1.55 1.55 0 0 0-1.5-1.25h-5a1.55 1.55 0 0 0-1.5 1.25 8.33 8.33 0 0 0-.5 2.75v.5h9v-.5c0-1-.2-1.9-.5-2.75zM8.5 6.5a.5.5 0 0 1 .5-.5h.7c.76 0 1.43.4 1.81 1a5.53 5.53 0 0 0-1.51 2h-1a.5.5 0 0 1-.5-.5v-2zm.5 8a.5.5 0 0 1 .5-.5h1.21c.24.74.64 1.42 1.18 2H9.5a.5.5 0 0 1-.5-.5v-1z"/>
+                                <path d="M22 8.5c0 3.31-1.9 6.19-4.65 7.67a8.3 8.3 0 0 1 .65 3.33v.5c0 .83-.67 1.5-1.5 1.5h-9c-.83 0-1.5-.67-1.5-1.5v-.5a8.3 8.3 0 0 1 .65-3.33A9 9 0 0 1 3 8.5C3 3.81 6.81 0 11.5 0S20 3.81 20 8.5h2zM11.5 16a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15z"/>
+                            </svg>
+                        </div>
+                        <span class="text-xl font-extrabold text-white">
+                            HUGO <span class="text-primary-400">GAZ</span> <span class="text-xs font-semibold bg-primary-500 text-white px-2 py-1 rounded">EXPRESS</span>
+                        </span>
+                    </div>
+                    <p class="mb-4 text-gray-400 text-sm">
+                        HUGO GAZ Express propose un service de livraison rapide et sécurisé de bouteilles de gaz pour particuliers et professionnels.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">Liens rapides</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#accueil" class="text-gray-400 hover:text-white transition-colors">Accueil</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Nos services</a></li>
+                        <li><a href="#produits" class="text-gray-400 hover:text-white transition-colors">Produits</a></li>
+                        <li><a href="#commander" class="text-gray-400 hover:text-white transition-colors">Commander</a></li>
+                        <li><a href="#temoignages" class="text-gray-400 hover:text-white transition-colors">Témoignages</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">Informations légales</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Conditions Générales de Vente</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Politique de Confidentialité</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Politique de Cookies</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Mentions Légales</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Gestion des Réclamations</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-400 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>RUE 8.2 TITI GARAGE FAce Station Bocom<br> Yaounde, Cameroun</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-400 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <span>680479880</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-400 mr-3 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <span>contact@hugogaz-express.fr</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="pt-8 mt-8 border-t border-gray-700 text-sm text-gray-400">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p>&copy; 2025 HUGO GAZ Express. Tous droits réservés.</p>
+                    <div class="mt-4 md:mt-0">
+                        <p>Conçu avec <span class="text-red-500">♥</span> pour votre confort et votre sécurité</p>
+                    </div>
+                    <div class="mt-4 md:mt-0 flex space-x-4">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCA1MCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHJ4PSI0IiBmaWxsPSIjMUI0RjlBIi8+PGNpcmNsZSBjeD0iMTkiIGN5PSIxNSIgcj0iOCIgZmlsbD0iI0ZGQTUwMCIvPjxwYXRoIGQ9Ik0yOSA4SDM4VjIzSDI5VjhaIiBmaWxsPSIjRUQwMDA2Ii8+PC9zdmc+" alt="Visa" class="h-6">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCA1MCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHJ4PSI0IiBmaWxsPSIjRkZGRkZGIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSIxNSIgcj0iOCIgZmlsbD0iI0ViMDAxQiIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMTUiIHI9IjgiIGZpbGw9IiNGNzlFMUIiLz48cGF0aCBkPSJNMTggMThDMjAuNzYxNCAxOCAyMyAxNS43NjE0IDIzIDEzQzIzIDEwLjIzODYgMjAuNzYxNCA4IDE4IDhDMTUuMjM4NiA4IDEzIDEwLjIzODYgMTMgMTNDMTMgMTUuNzYxNCAxNS4yMzg2IDE4IDE4IDE4WiIgZmlsbD0iI0ViMDAxQiIvPjxwYXRoIGQ9Ik0zMiAxOEMzNC43NjE0IDE4IDM3IDE1Ljc2MTQgMzcgMTNDMzcgMTAuMjM4NiAzNC43NjE0IDggMzIgOEMyOS4yMzg2IDggMjcgMTAuMjM4NiAyNyAxM0MyNyAxNS43NjE0IDI5LjIzODYgMTggMzIgMThaIiBmaWxsPSIjRjc5RTFCIi8+PHBhdGggZD0iTTI1IDE1QzI1LjU1MjMgMTUgMjYgMTQuNTUyMyAyNiAxNEMyNiAxMy40NDc3IDI1LjU1MjMgMTMgMjUgMTNDMjQuNDQ3NyAxMyAyNCAxMy40NDc3IDI0IDE0QzI0IDE0LjU1MjMgMjQuNDQ3NyAxNSAyNSAxNVoiIGZpbGw9IiNGNDc5MTYiLz48L3N2Zz4=" alt="Mastercard" class="h-6">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCA1MCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHJ4PSI0IiBmaWxsPSIjRkZGRkZGIi8+PHBhdGggZD0iTTIxIDEwSDI5VjIwSDIxVjEwWiIgZmlsbD0iIzAwNjZCMiIvPjxwYXRoIGQ9Ik0xNCAxMEgyMFYyMEgxNFYxMFoiIGZpbGw9IiNGQTFCMUIiLz48cGF0aCBkPSJNMzAgMTBIMzZWMjBIMzBWMTBaIiBmaWxsPSIjRkE4MzMzIi8+PC9zdmc+" alt="American Express" class="h-6">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCA1MCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNTAiIGhlaWdodD0iMzAiIHJ4PSI0IiBmaWxsPSIjNEQzMTFGIi8+PHBhdGggZD0iTTE1LjUgMTAuNUgzNC41VjE5LjVIMTUuNVYxMC41WiIgZmlsbD0iI0ZGQzEwNyIvPjx0ZXh0IHg9IjI1IiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSI4IiBmaWxsPSIjNEQzMTFGIj5QQVlQQUw8L3RleHQ+PC9zdmc+" alt="PayPal" class="h-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg z-50 opacity-0 invisible transition-all hover:bg-primary-600">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+    
+    <!-- Cookies consent -->
+    <div id="cookie-consent" class="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 p-4 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50 transition-transform transform translate-y-full">
+        <div class="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+                <h3 class="text-base font-bold text-gray-900 dark:text-white mb-1">🍪 Nous utilisons des cookies</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-300">Nous utilisons des cookies pour améliorer votre expérience sur notre site.</p>
+            </div>
+            <div class="flex flex-wrap gap-2">
+                <button id="accept-cookies" class="bg-primary-500 hover:bg-primary-600 text-white font-medium px-4 py-2 rounded text-sm whitespace-nowrap">
+                    Accepter
+                </button>
+                <button id="customize-cookies" class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-medium px-4 py-2 rounded text-sm whitespace-nowrap">
+                    Personnaliser
+                </button>
+                <button id="reject-cookies" class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-medium px-4 py-2 rounded border border-gray-300 dark:border-gray-600 text-sm whitespace-nowrap">
+                    Refuser
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        
+        // Check for user preference in localStorage
+        if (localStorage.getItem('color-theme') === 'dark' || 
+            (!localStorage.getItem('color-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        
+        // Listen for theme changes
+        themeToggle.addEventListener('click', function() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('color-theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
+            }
+        });
+        
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            item.addEventListener('click', function() {
+                this.classList.toggle('active');
+            });
+        });
+        
+        // Product Filters
+        const productFilters = document.querySelectorAll('.product-filter');
+        const productCards = document.querySelectorAll('.product-card');
+        
+        productFilters.forEach(filter => {
+            filter.addEventListener('click', function() {
+                // Remove active class from all filters
+                productFilters.forEach(f => f.classList.remove('active', 'bg-primary-50', 'dark:bg-primary-900', 'text-primary-500'));
+                // Add active class to clicked filter
+                this.classList.add('active', 'bg-primary-50', 'dark:bg-primary-900', 'text-primary-500');
+                
+                const category = this.getAttribute('data-filter');
+                
+                // Show/hide products based on category
+                productCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Quantity controls for order form
+        const decreaseBtn = document.getElementById('decrease-quantity');
+        const increaseBtn = document.getElementById('increase-quantity');
+        const quantityInput = document.getElementById('quantity');
+        
+        decreaseBtn.addEventListener('click', function() {
+            const currentValue = parseInt(quantityInput.value);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+                updateOrderSummary();
+            }
+        });
+        
+        increaseBtn.addEventListener('click', function() {
+            const currentValue = parseInt(quantityInput.value);
+            quantityInput.value = currentValue + 1;
+            updateOrderSummary();
+        });
+        
+        // Order form radio buttons
+        const productRadios = document.querySelectorAll('input[name="product"]');
+        const summaryProduct = document.getElementById('summary-product');
+        const summaryQuantity = document.getElementById('summary-quantity');
+        const summaryTotal = document.getElementById('summary-total');
+        
+        // Prices map
+        const prices = {
+            'propane-13kg': 39.90,
+            'butane-13kg': 36.90,
+            'propane-6kg': 26.90
+        };
+        
+        // Update order summary
+        function updateOrderSummary() {
+            const selectedProduct = document.querySelector('input[name="product"]:checked');
+            const quantity = parseInt(quantityInput.value);
+            
+            if (selectedProduct) {
+                const productValue = selectedProduct.value;
+                const productLabel = selectedProduct.parentElement.querySelector('label span:first-child').textContent;
+                const price = prices[productValue];
+                
+                summaryProduct.textContent = productLabel;
+                summaryQuantity.textContent = quantity;
+                summaryTotal.textContent = (price * quantity).toFixed(2) + ' €';
+            }
+        }
+        
+        // Listen for changes on radio buttons
+        productRadios.forEach(radio => {
+            radio.addEventListener('change', updateOrderSummary);
+        });
+        
+        // Listen for changes on quantity input
+        quantityInput.addEventListener('change', updateOrderSummary);
+        
+        // Cookie consent
+        const cookieConsent = document.getElementById('cookie-consent');
+        const acceptCookies = document.getElementById('accept-cookies');
+        const rejectCookies = document.getElementById('reject-cookies');
+        const customizeCookies = document.getElementById('customize-cookies');
+        
+        // Show cookie consent if not previously accepted
+        if (!localStorage.getItem('cookies-accepted')) {
+            setTimeout(() => {
+                cookieConsent.classList.remove('translate-y-full');
+            }, 1000);
+        }
+        
+        acceptCookies.addEventListener('click', function() {
+            localStorage.setItem('cookies-accepted', 'true');
+            cookieConsent.classList.add('translate-y-full');
+        });
+        
+        rejectCookies.addEventListener('click', function() {
+            localStorage.setItem('cookies-accepted', 'false');
+            cookieConsent.classList.add('translate-y-full');
+        });
+        
+        customizeCookies.addEventListener('click', function() {
+            // In a real implementation, this would open a modal for cookie preferences
+            alert('Cette fonctionnalité serait implémentée dans une version complète du site.');
+        });
+        
+        // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.add('opacity-0', 'invisible');
+                backToTopButton.classList.remove('opacity-100', 'visible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Form submissions
+        const orderForm = document.getElementById('order-form');
+        if (orderForm) {
+            orderForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // In a real implementation, this would send data to a server
+                alert('Merci pour votre commande ! Dans une version complète, votre commande serait traitée et un e-mail de confirmation vous serait envoyé.');
+            });
+        }
+        
+        // Contact form
+        const contactForm = document.querySelector('#contact form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // In a real implementation, this would send data to a server
+                alert('Merci pour votre message ! Dans une version complète, votre message serait envoyé à notre équipe qui vous répondrait dans les plus brefs délais.');
+            });
+        }
+        
+        // Newsletter form
+        const newsletterForm = document.querySelector('section:nth-last-of-type(2) form');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // In a real implementation, this would send data to a server
+                alert('Merci de vous être inscrit à notre newsletter ! Dans une version complète, vous recevriez un e-mail de confirmation.');
+            });
+        }
+        
+        // Page load animation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add animation to hero elements
+            const heroElements = document.querySelectorAll('.animate-slide-up, .animate-fade-in');
+            heroElements.forEach(element => {
+                element.style.opacity = '1';
+            });
+        });
+    </script>
+</body>
+</html>
